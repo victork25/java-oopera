@@ -2,7 +2,7 @@ import kz.yandex.practicum.*;
 
 import java.util.List;
 
-public class Main {
+public class Theatre {
 
     public static void main(String[] args) {
         final var actors = List.of(
