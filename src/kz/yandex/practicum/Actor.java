@@ -27,18 +27,18 @@ public class Actor extends Person {
 
         Actor actor = (Actor) o;
 
-        return Objects.equals(getName(), actor.getName())
-                && Objects.equals(getSurname(), actor.getSurname())
+        return Objects.equals(name, actor.name)
+                && Objects.equals(surname, actor.surname)
                 && height == actor.height;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getName(), getSurname(), height);
+        return Objects.hash(name, surname, height);
     }
 
     @Override
     public String toString() {
-        return String.format("%s %s (%d см.)", getName(), getSurname(), height);
+        return String.format("%s %s (%d см.)", name, surname, height);
     }
 }
