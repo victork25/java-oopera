@@ -1,4 +1,4 @@
-package kz.yandex.practicum;
+package kz.yandex.practicum.domain.people;
 
 import java.util.Objects;
 

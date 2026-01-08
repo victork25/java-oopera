@@ -1,4 +1,5 @@
-import kz.yandex.practicum.*;
+import kz.yandex.practicum.domain.people.*;
+import kz.yandex.practicum.domain.show.*;
 
 import java.util.List;
 

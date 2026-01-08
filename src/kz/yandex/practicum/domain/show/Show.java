@@ -1,4 +1,6 @@
-package kz.yandex.practicum;
+package kz.yandex.practicum.domain.show;
+
+import kz.yandex.practicum.domain.people.*;
 
 import java.util.ArrayList;
 import java.util.List;

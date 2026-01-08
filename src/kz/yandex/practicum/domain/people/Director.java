@@ -1,4 +1,4 @@
-package kz.yandex.practicum;
+package kz.yandex.practicum.domain.people;
 
 public class Director extends Person {
     private final int numberOfShows;
