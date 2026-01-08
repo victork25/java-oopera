@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ballet extends MusicalShow {
-    private Person choreographer;
+    private final Person choreographer;
 
     public Ballet(String title, int duration, Director director, List<Actor> listOfActors, Person musicAuthor,
                   String librettoText, Person choreographer) {

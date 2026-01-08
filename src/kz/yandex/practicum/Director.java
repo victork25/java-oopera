@@ -1,7 +1,7 @@
 package kz.yandex.practicum;
 
 public class Director extends Person {
-    private int numberOfShows;
+    private final int numberOfShows;
 
     public Director(String name, String surname, Gender gender, int numberOfShows) {
         super(name, surname, gender);
